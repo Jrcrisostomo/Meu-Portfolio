@@ -47,6 +47,17 @@ li:hover {
   transition: 0, 5s;
 }
 
+.link-menu{
+  text-decoration: none;
+  color: #f9004d;
+  cursor: pointer;
+}
+
+.link-menu:hover{
+  color: white;
+  transition: 0,05s;
+}
+
 .meu-nome {
   position: absolute;
   top: 50%;
@@ -214,8 +225,8 @@ footer p {
 
 .social a:hover {
     transform: scale(1.3);
-    transition: 0.5s;
-}
+    transition: 0,3s;
+  }
 
 /* Media query 
 
